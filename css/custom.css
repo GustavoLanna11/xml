@@ -1,0 +1,693 @@
+body,
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(12, 10, 55);
+    background: linear-gradient(90deg, rgba(12, 10, 55, 1) 0%, rgba(25, 21, 121, 1) 50%,
+            rgba(64, 10, 107, 1) 100%);
+}
+/*
+iframe:hover {
+    transform: scale(1);
+    border: 3px solid #000000;
+}*/
+
+#linha {
+    color: white;
+    width: 60%;
+}
+
+/*NAVBAR CSS*/
+
+
+
+#navbar {
+    background: rgb(1, 1, 18);
+    background: linear-gradient(90deg, rgba(1, 1, 18, 1) 0%, rgba(10, 6, 78, 1) 50%, rgba(1, 0, 13, 1) 100%);
+
+    /*
+    background-color: rgb(28, 28, 28);
+    */
+
+}
+
+
+.navbar-brand {
+    color: rgb(2, 0, 0);
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 1;
+    padding-left: 19%;
+
+}
+
+
+.navbar-brand:hover {
+
+    color: rgb(114, 114, 119);
+}
+
+.navbar-toggler-icon {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.nav-link:hover {
+    border-bottom: solid 2px rgb(255, 255, 255);
+    color: rgb(114, 114, 119);
+}
+
+.nav-item:hover {
+    color: rgb(114, 114, 119);
+}
+
+#nav-pills {
+    padding-right: 10%;
+}
+
+.nav-link {
+    color: white;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: 1;
+}
+
+.text-muted {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+/*NAVBAR CSS*/
+
+
+
+
+
+
+/*SLIDER ----------------------------------------------------------------------------------------------------*/
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    letter-spacing: 4px;
+
+}
+
+h4 {
+    color: gray;
+    font-size: 20px;
+    font-weight: 5;
+}
+
+#slider {
+    /*
+    background-image: linear-gradient(134deg,#00406C, 70%, rgb(0, 0, 0));
+    
+    background-color: #00406C;
+    */
+
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 5%;
+}
+
+/*SLIDER  ----------------------------------------------------------------------------------------------------*/
+
+
+/*CARDS ----------------------------------------------------------------------------------------------------*/
+#circulos {
+    /*
+    background-image: linear-gradient(134deg,#003A61, 70%, rgb(0, 0, 0));
+    
+    background-color: #003A61;
+    */
+    padding-top: 150px;
+    padding-bottom: 180px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#tp {
+
+    /*
+    background-color: #032135;
+    */
+    background: rgb(14, 9, 69);
+    background: linear-gradient(90deg, rgba(14, 9, 69, 1) 0%, rgba(23, 16, 149, 1) 50%, rgba(14, 9, 69, 1) 100%);
+}
+
+#txt {
+    color: white;
+}
+
+.card-footer {
+    background-color: #001523;
+}
+
+.col1:hover {
+    transform: scale(0.95);
+}
+
+.col2:hover {
+    transform: scale(0.95);
+}
+
+.col3:hover {
+    transform: scale(0.95);
+}
+
+#cards {
+    position: static;
+}
+
+/*CARDS  ----------------------------------------------------------------------------------------------------*/
+
+
+/*PERFIL ----------------------------------------------------------------------------------------------------*/
+
+#perfil {
+    /*
+    background-image: linear-gradient(134deg,#002E4E, 70%, rgb(0, 0, 0));
+    
+    background-color: #002E4E;
+    */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.titulo-perfil {
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.txt-perfil {
+    font-size: 19px;
+    font-weight: 1;
+    color: white;
+}
+
+/*PERFIL  ----------------------------------------------------------------------------------------------------*/
+
+
+/*SOBRE ----------------------------------------------------------------------------------------------------*/
+#sobre {
+    /*
+    background-image: linear-gradient(134deg,#003356, 70%, rgb(0, 0, 0));
+    
+    background-color: #002E4E;
+    */
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.sobre {
+    padding-top: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.txt-sobre {
+    font-size: 19px;
+    font-weight: 1;
+    color: white;
+}
+
+.img-sobre {
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+}
+
+/*SOBRE ----------------------------------------------------------------------------------------------------*/
+
+
+/*O QUE É ----------------------------------------------------------------------------------------------------*/
+
+#oq {
+    /*
+    background-color: #00253E;
+    */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.img-oq {
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+}
+
+/*o que é ----------------------------------------------------------------------------------------------------*/
+
+
+/*COMO FUNCIONA  ----------------------------------------------------------------------------------------------------*/
+#funciona {
+    /*
+    background-color: #002137;
+    */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titulo-funciona {
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+
+.txt-funciona {
+    font-size: 20px;
+    font-weight: 1;
+    color: white;
+}
+
+.img-funciona {
+    width: 80%;
+}
+
+/*COMO FUNCIONA  ----------------------------------------------------------------------------------------------------*/
+
+/*INTRODUCAO----------------------------------------------------------------------------------------------------------*/
+.faculdade-1 {
+    color: white;
+    font-size: 40px;
+}
+
+.txt-facul1 {
+    font-size: 20px;
+    font-weight: 1;
+    color: white;
+}
+
+
+#graduacao:hover {
+    border: 2px solid #000000;
+    transform: scale(0.98);
+    border-radius: 5%;
+}
+
+#especializacao:hover {
+    border: 2px solid #000000;
+    transform: scale(0.98);
+    border-radius: 5%;
+}
+
+
+
+/*INTRODUCAO----------------------------------------------------------------------------------------------------------*/
+
+/*CURSOS DA ÁREA  ----------------------------------------------------------------------------------------------------*/
+#bacharelados {
+    /*
+   background-color: #001A2C;
+   */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.a:hover {
+    transform: scale(0.9);
+}
+
+.titulo-bacharelado {
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.txt-bacharelado {
+    font-size: 24px;
+    font-weight: 1;
+    color: white;
+}
+
+#cardcurso:hover {
+    border: 2px solid #000000;
+    transform: scale(0.98);
+    border-radius: 5%;
+}
+
+.card-ufrn {
+    width: 180px;
+    height: 150px;
+}
+
+.card-ufc {
+    width: 100px;
+    height: 140px;
+    padding-left: 0px;
+}
+
+.card-ufpr {
+    width: 100px;
+    height: 150px;
+    padding-left: 0px;
+}
+
+.card-ufg {
+    width: 130px;
+    height: 150px;
+    padding-left: 0px;
+}
+
+.card-ufam {
+    width: 130px;
+    height: 165px;
+    padding-left: 0px;
+}
+
+.card-utfpr {
+    width: 155px;
+    height: 70px;
+    padding-left: 0px;
+}
+
+.card-ufms {
+    width: 130px;
+    height: 150px;
+    padding-left: 0px;
+}
+
+.card-ufpg {
+    width: 160px;
+    height: 90px;
+    padding-left: 0px;
+}
+
+/*CURSOS DA ÁREA  ----------------------------------------------------------------------------------------------------*/
+
+/*PAGINA EM CONSTRUÇÃO  ----------------------------------------------------------------------------------------------------*/
+#faculdade1 {
+    /*
+    background-color: #001523;
+    */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*PAGINA EM CONSTRUÇÃO  ----------------------------------------------------------------------------------------------------*/
+
+
+/*MESTRADOS  ----------------------------------------------------------------------------------------------------*/
+#mestrados {
+    /*
+    background-color: #001523;
+    */
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+#cciber {
+    padding-bottom: 17px;
+}
+
+.titulo-mestrado {
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 39px;
+    color: white;
+}
+
+.subtitulo {
+    font-weight: 500;
+    font-size: 29px;
+    color: white;
+}
+
+.txt-mestrado {
+    font-size: 25px;
+    font-weight: 1;
+    color: rgb(199, 195, 195);
+}
+
+.card {
+    background-color: #5A6973;
+}
+
+.card-text {
+    color: white
+}
+
+.card-title {
+    color: white;
+}
+
+/*MESTRADOS  ----------------------------------------------------------------------------------------------------*/
+
+
+/*OPÇÕES DE MESTRADOS  ----------------------------------------------------------------------------------------------------*/
+#mestrado1 {
+    /*
+    background-color: #001A2C;
+    */
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.card-verona {
+    padding-top: 12px;
+    width: 250px;
+    height: 100px;
+}
+
+.card-verona:hover {
+    transform: scale(0.9);
+}
+
+#cverona {
+    padding-bottom: 5px;
+}
+
+#cverona:hover {
+    border: 3px solid #000000;
+    transform: scale(1.0);
+}
+
+#cardmon:hover {
+    border: 3px solid #000000;
+}
+
+#cardcb:hover {
+    border: 3px solid #000000;
+}
+
+#coviedo:hover {
+    border: 3px solid #000000;
+}
+
+.card-mondragon {
+    padding-top: 12px;
+    width: 150px;
+    height: 100px;
+}
+
+.card-mondragon:hover {
+    transform: scale(0.9);
+}
+
+.card-cb {
+    padding-top: 10px;
+    width: 180px;
+    height: 125px;
+}
+
+.card-cb:hover {
+    transform: scale(0.9);
+}
+
+.card-oviedo {
+    padding-top: 10px;
+    width: 200px;
+    height: 120px;
+}
+
+.card-oviedo:hover {
+    transform: scale(0.9);
+}
+
+#coviedo {
+    padding-bottom: 5px;
+}
+
+.card-text-mestrado {
+    color: white;
+}
+
+/*OPCOES DE MESTRADOS  ----------------------------------------------------------------------------------------------------*/
+
+/*OPCOES DE DOUTORADOS  ----------------------------------------------------------------------------------------------------*/
+
+.titulo-doutorado {
+    color: white;
+    font-size: 25px;
+}
+
+.card-geo {
+    padding-top: 12px;
+    width: 150px;
+    height: 150px;
+}
+
+.card-dallas {
+    padding-top: 12px;
+    width: 150px;
+    height: 150px;
+}
+
+.card-geo:hover {
+    transform: scale(0.9);
+}
+
+.card-dallas:hover {
+    transform: scale(0.9);
+}
+
+/*OPCOES DE DOUTORADOS  ----------------------------------------------------------------------------------------------------*/
+
+/*LATO ----------------------------------------------------------------------------------------------------*/
+#lato {
+    /*
+    background-color: #002945;
+    */
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+#carduc:hover {
+    border: 3px solid #000000;
+
+}
+
+.unity {
+    width: 200px;
+    height: 200px;
+}
+
+.unity:hover {
+    transform: scale(0.9);
+}
+
+#txt_unity {
+    padding-bottom: 22px;
+}
+
+
+
+.c {
+    width: 200px;
+    height: 200px;
+}
+
+.c:hover {
+    transform: scale(0.9);
+}
+
+.txt-lato {
+    color: white;
+    font-size: 20px;
+}
+
+
+/*LATO ----------------------------------------------------------------------------------------------------*/
+
+/*MBAS ----------------------------------------------------------------------------------------------------*/
+#mba {
+    /*
+    background-color: #002E4E;
+    */
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+#cardmba:hover {
+    border: 3px solid #000000;
+}
+
+#mbas:active {
+    transform: scale(0.9);
+}
+
+#mbas:hover {
+    transform: scale(0.9);
+}
+
+#cel-main {
+    position: relative;
+    width: 340px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cel-main iframe {
+    width: 95%;
+    height: 90%;
+    border-radius: 2%;
+}
+
+@media (min-width:800px){
+    #cel-main {
+        width: 750px;
+        height: 350px;
+        padding-left: 10px;
+        border-radius: 50px;
+        
+    }
+}
+
+iframe:hover{
+    border: 3px solid #000000;
+    transform: scale(1);
+}
+
+
+
+/*MBAS ----------------------------------------------------------------------------------------------------*/
+
+/*ENTREVISTA ----------------------------------------------------------------------------------------------------*/
+#entrevista {
+    /*
+    background-color: #003356;
+    */
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.entrevista {
+    color: white;
+    font-size: 30px;
+}
+
+.sub_txt_en {
+    color: white;
+    font-size: 20px;
+}
+
+/*ENTREVISTA ----------------------------------------------------------------------------------------------------*/
+
+/*RODAPE ----------------------------------------------------------------------------------------------------*/
+
+.text-body{
+    color: white;
+}
+#postTitle{
+    font-size: 40px;
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conteudo>
+    <postagem codigo="1">
+        <titulo>Engenheiro e arquiteto de software: as profissões mais disputadas da tecnologia</titulo>
+        <corpo>
+       Construir e desenvolver novos programas é o desafio de milhares de empresas de tecnologia que buscam a inovação em um mercado cada vez mais competitivo.
+        </corpo>
+        <corpo_2>
+        
+        Não à toa, os engenheiros e arquitetos de software estão entre as profissões mais disputadas atualmente. Afinal, esses especialistas em TI são capazes de tirar projetos e até startups do papel.
+
+        </corpo_2>
+        <corpo_3>
+           Além do grande leque de oportunidades, as posições abertas para esses profissionais contam com planos de carreira estruturados e bons salários a partir de R$4.800,00, segundo o site Glassdoor.
+        </corpo_3>
+        <corpo_4>
+           Para ingressar nessas áreas, uma especialização da Pós PUCPR Digital pode ser o caminho. Conheça a diferença entre os cargos e veja qual mais tem a ver com você:
+        </corpo_4>
+
+
+
+        <corpo_5>
+           O que faz um engenheiro de software?
+        </corpo_5>
+        <corpo_6>
+          Na área da TI, o engenheiro de software é o profissional responsável por projetar, desenvolver e implementar a solução proposta junto aos demais programadores da equipe.
+        </corpo_6>
+        <corpo_7>
+            Focado no negócio, esse especialista também tem a função de gerenciar processos, garantindo qualidade e produtividade na execução das atividades pelo time.
+        </corpo_7>
+
+
+
+        <corpo_8>
+            Além disso, o engenheiro é quem faz a ponte entre o líder e os programadores na execução de uma ação, oficializando a entrega. Geralmente, sua formação acadêmica engloba Engenharia da Computação, Ciências da Computação, ou uma pós na área.
+        </corpo_8>
+        <corpo_9>
+        </corpo_9>
+        <corpo_10>
+        </corpo_10>
+        <imagem fileName="img_a.jpg">pizza.jpg</imagem>
+    </postagem>
+
+
+
+    <postagem codigo="2">
+        <titulo>Noções de Engenharia de Software</titulo>
+        <corpo>
+           Aprenda neste artigo noções de Engenharia de Software, seu histórico e os principais conceitos associados a sua prática.
+        </corpo>
+        <corpo_2>    
+            Fala, pessoal! Com o destaque cada vez maior das disciplinas de Tecnologia da Informação (TI) nas provas de concurso, é comum que os alunos se deparem com diversos termos totalmente desconhecidos para aqueles que não são da área.
+        </corpo_2>
+        <corpo_3>
+           Um deles é a Engenharia de Software. Afinal, do que se trata e quais são os conceitos relacionados mais importantes para quem não sabe nada sobre o assunto? É isso que veremos neste artigo! Vamos lá?
+
+        </corpo_3>
+        <corpo_4>
+             O que é um Software?
+        </corpo_4>
+        <corpo_5>
+            De maneira bem básica e resumida, o termo software refere-se a toda informação processada por sistemas computacionais, incluindo os navegadores web, programas de computador, aplicações móveis e programas de mídia digital. 
+        </corpo_5>
+        <corpo_6>
+           Atualmente, este é um mercado bilionário (segundo a ABES, apenas no Brasil, esse mercado movimentou US$19,2 bilhões em 2021). Os programas controlam uma grande variedade de dispositivos, desde celulares e eletrodomésticos inteligentes, até computadores pessoais e supercomputadores que operam em agências governamentais estratégicas.
+        </corpo_6>
+        <corpo_7>
+            De fato, é difícil imaginar uma área do conhecimento humano que não seja ao menos parcialmente impactada pelos softwares, incluindo as atividades profissionais, domésticas e de entretenimento.
+
+        </corpo_7>
+        <corpo_8>
+            Histórico – noções de Engenharia de Software
+        </corpo_8>
+        <corpo_9>
+        A Engenharia de Software surgiu no final da década de 1950, como uma solução para contornar a então emergente crise do software. Nessa época, muitos projetos de software estavam fracassando, seja por ultrapassar de forma descontrolada o orçamento previsto inicialmente, seja por resultar em programas não confiáveis e com manutenção muito cara.
+        </corpo_9>
+        <corpo_10>
+        Ademais, notava-se, à época, que os softwares entregues não conseguiam acompanhar os crescentes requerimentos de adaptação ou evolução que surgiam quando da interação dos usuários com os produtos.
+        O cenário de crise era formado ainda pelo aumento de complexidade dos softwares a cada evolução de hardware; ou seja, à medida que os equipamentos físicos avançavam com as novas tecnologias, o desenvolvimento e a manutenção dos softwares tornavam-se ainda mais custosos.
+
+Por fim, destaca-se a dificuldade em fazer face à crescente demanda por novos softwares, já que a capacidade de gerar novos produtos não era compatível com as necessidades que emergiram no momento.
+
+        </corpo_10>
+        <imagem fileName="img_b.jpg">time.jpg</imagem>
+    </postagem>
+
+
+    
+    <postagem codigo="3">
+        <titulo>Escola de Campinas oferece 20 bolsas integrais para cursos de desenvolvimento de software e engenharia de dados</titulo>
+        <corpo>
+           A Escola Korú abriu inscrições para 100 bolsas de estudo em Campinas voltadas para mulheres, pessoas negras, LGBTQIA+, pessoas com deficiência ou sem emprego formal. Dessas, 20 são integrais (100%), para os cursos de Engenharia de Dados e Desenvolvimento de Software. Inscrições devem ser realizadas pelo site até 12 de dezembro.
+        </corpo>
+        <corpo_2>    
+Os cursos serão ministrados a partir de fevereiro de 2023 e têm duração de 6 meses, cerca de 240 horas de aulas on-line e presenciais, oferecidas na sede da escola, localizada no bairro Cambuí. Pessoas que não se encaixarem nas condições de bolsas integrais, mas não podem arcar com os custos totais, também podem se inscrever e ganhar até 75% de bolsa na escola.
+        </corpo_2>
+        <corpo_3>
+            Com metodologia "work based learning", que consiste em práticas nas quais os alunos desenvolvem soluções para problemas reais, os cursos contam ainda com o aprendizado de soft skills, além das teorias e técnicas da área escolhida.
+
+        </corpo_3>
+        <corpo_4>
+             A Apple possui um programa para cadastro de desenvolvedores que queiram publicar aplicativos em sua loja, ficando com uma comissão de 30% sobre os ganhos. É preciso criar uma conta de desenvolvedor no serviço e pagar uma taxa anual de 99 dólares para poder publicar apps e jogos.
+        </corpo_4>
+        <corpo_5>
+           Microsoft
+        </corpo_5>
+        <corpo_6>
+Para lançar jogos para dispositivos como Xbox e Windows 10, a Microsoft possui um programa chamado Independent Developer (ID@XBOX), no qual é possível aplicar e participar de uma seleção que possibilitará ao desenvolvedor obter SDKs, kits de desenvolvimento e suporte para lançamento do game na plataforma da companhia.
+        </corpo_6>
+        <corpo_7>
+        
+        </corpo_7>
+        <corpo_8>
+        </corpo_8>
+        <corpo_9>
+
+        </corpo_9>
+        <corpo_10>
+
+
+        </corpo_10>
+        <imagem fileName="img_c.png">sell.png</imagem>
+    </postagem>
+</conteudo>

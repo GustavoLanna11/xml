@@ -1,0 +1,1335 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Engenharia Bootstrap</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script type="text/javascript" src="js/funcoes.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--INICIO DE UM SONHO :)))))-->
+  <div id="wrapper">
+
+
+
+    <!--NAVBAR-->
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-light justify-content: space-between fixed-top" id="navbar">
+        <a class="navbar-brand" href="#slider" id="nav-link"><i>Home</i></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="nav nav-pills" id="nav-pills">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#perfil"><i>Perfil</i></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre"><i>Sobre</i></a>
+            </li>
+
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bacharelados"><i>Cursos</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mestrados"><i>Graduações</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#entrevista"><i>Entrevista</i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--NAVBAR-->
+
+
+    <!--PÁGINA INICIAL-->
+    <div id="slider">
+      <div class="container pt-5 p-3">
+        <div class="row">
+          <div class="col-md-5 align-self-center">
+            <i>
+              <h1><b>Engenharia de Software</b></h1>
+            </i>
+
+            <h4>Engenharia de software é uma área da engenharia e da computação voltada à especificação,
+              desenvolvimento,
+              manutenção e criação de software, com a aplicação de tecnologias e práticas de gerência de projetos e
+              outras
+              disciplinas, visando organização, produtividade e qualidade.</h4>
+
+          </div>
+          <div class="col-md-7 align-self-center text-center">
+            <img src="assets/frame1.png" class="img-fluid">
+
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <center>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16" color="white">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg>
+      </center>
+    </div>
+
+    <center>
+      <hr id="linha">
+    </center>
+
+    <!--PÁGINA INICIAL-->
+
+
+    <!--TRIPLE CARD-->
+    <div id="circulos">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="cards">
+          <div class="col1">
+            <div class="card h-100">
+
+              <img src="assets/img1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body" id="tp">
+
+                <a href="#sobre">
+                  <h5 class="card-title">Sobre</h5>
+                  <p class="card-text">Saiba mais sobre o quê é e como funciona esse mundo da Engnharia de Software.</p>
+              </div>
+
+              <div class="card-footer">
+                <small class="text-muted">
+                  <p id="txt">Sobre, o quê é e como funciona.</p>
+                </small>
+              </div>
+
+              </a>
+            </div>
+          </div>
+
+          <div class="col2">
+            <div class="card h-100">
+              <img src="assets/img2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body" id="tp">
+
+                <a href="#bacharelados">
+
+
+                  <h5 class="card-title">Graduação</h5>
+                  <p class="card-text">Saiba e se aprofunde nas graduações, mestrados e cursos num geral envolvendo esta
+                    área.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">
+                  <p id="txt">Cursos, faculdades, mestrados e doutorados.</p>
+                </small>
+              </div>
+
+              </a>
+            </div>
+          </div>
+
+          <div class="col3">
+            <div class="card h-100">
+              <img src="assets/img3.jpg" class="card-img-top" alt="...">
+              <div class="card-body" id="tp">
+
+                <a href="#lato">
+
+
+                  <h5 class="card-title">Certificações</h5>
+                  <p class="card-text">Na área de TI temos as denominadas certificações, parte de suma importância na
+                    carreira de um programador, saiba mais sobre elas, como funcionam e como adquirí-las.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted" id="subtext">
+                  <p id="txt">
+                    Especializações nas linguagens da área.
+                  </p>
+                </small>
+              </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+      <center>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16" color="white">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg>
+      </center>
+
+    </div>
+    <!--TRIPLE CARD-->
+
+    <center>
+      <hr id="linha">
+    </center>
+
+
+    <!--PERFIL-->
+    <div id="perfil">
+      <div class="container">
+        <div class="row">
+
+          <center>
+            <p class="titulo-perfil">
+              <i>
+                Perfil do Engenherio de Software
+              </i>
+            </p>
+          </center>
+
+          <div class="col-md-15 align-self-center">
+
+            <p class="txt-perfil">
+              O Engenheiro de Software deve possuir habilidades com raciocínio lógico e matemático bem desenvolvidas.
+              Já que a área muda com muita rapidez, precisa ter gosto pela inovação e capacidade de atualizar-se
+              continuamente.
+              Deve ter bom entrosamento para trabalhar em equipe e um bom entedimento do mundo, sociedade e suas
+              dinâmicas.
+
+              O profissional deve ter organização e persistência, além de capacidade para enfrentar novos desafios e
+              expandir
+              as fronteiras do conhecimento na área.
+              O Engenheiro de Software atua no projeto, desenvolvimento, implantação e evolução de software. Em sua
+              atuação, ele desenha, especifica,
+              programa e experimenta soluções que atendam às necessidades do mercado, da sociedade, das organizações e
+              dos indivíduos,
+              de acordo com suas capacidades e limitações, considerando os impactos emocionais e sociais.
+
+              Além disso, ele realiza estudos de viabilidade técnica e econômica, planeja e gerencia processos e equipes
+              de trabalho,
+              aplica técnicas para garantir a qualidade na produção e no software, de acordo com prazos e orçamento
+              estabelecidos,
+              utilizando métricas e ferramentas apropriadas, seguindo normas técnicas nacionais e internacionais, e
+              dentro dos
+              princípios da ética científica e profissional. Deve também ser capaz de projetar organizações de
+              desenvolvimento
+              de software.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+      <center>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16" color="white">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg>
+      </center>
+
+    </div>
+    <!--PERFIL-->
+
+    <center>
+      <hr id="linha">
+    </center>
+
+
+    <!--SOBRE-->
+    <div id="sobre">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <i>
+              <h1 class="sobre">Sobre</h1>
+            </i>
+            <p class="txt-sobre">
+              Engenharia de Software é uma área da engenharia e da computação voltada à especificação, desenvolvimento,
+              manutenção e criação de software, com a aplicação de tecnologias e práticas de gerência de projetos e
+              outras
+              disciplinas, visando organização, produtividade e qualidade. Atualmente, essas tecnologias e práticas
+              englobam
+              linguagens de programação, banco de dados, ferramentas, plataformas, bibliotecas, padrões de projeto de
+              software,
+              processo de software e qualidade de software. Além disso, a engenharia de software deve oferecer
+              mecanismos para
+              se planejar e gerenciar o processo de desenvolvimento de um sistema computacional de qualidade e que
+              atenda às
+              necessidades de um requisitante de software.
+            </p>
+          </div>
+          <div class="col-md-6 align-self-center text-center">
+            <img src="assets/sobreimg.jpg" class="img-sobre">
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+      <center>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16" color="white">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg>
+      </center>
+
+    </div>
+    <!--SOBRE-->
+
+    <center>
+      <hr id="linha">
+    </center>
+
+
+    <!--O QUE É-->
+    <div id="oq">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 align-self-center text-center">
+            <img src="assets/oqe.jpg" class="img-oq">
+          </div>
+
+          <div class="col-md-6 align-self-center">
+            <i>
+              <h1 class="sobre">O quê é</h1>
+            </i>
+            <p class="txt-sobre">
+              Já se perguntou o que é a Engenharia de sofware? Essa é uma área bem específica, em que muitos
+              alunos entram no mercado de trabalho até mesmo antes de se graduar, devido à falta de profissionais
+              qualificados para prestar serviços.
+
+              A engenharia de software capacita as pessoas com a utilização
+              de teorias, técnicas e ferramentas da Ciência da computação para produção e desenvolvimento de
+              sistemas. Por meio da análise, coleta e processamento de dados, ainda identificam potenciais
+              falhas nesses produtos e criam soluções de alta performance. O objetivo dessa engenharia é
+              acompanhar as inovações e ensinar aos alunos as melhores técnicas e modelos a serem seguidos.
+              Com conhecimento adquirido em uma graduação, o profissional tem diversas oportunidades de atuação
+              no mercado.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+      <center>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16" color="white">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg>
+      </center>
+
+    </div>
+    <!--O QUE É-->
+
+    <center>
+      <hr id="linha">
+    </center>
+
+
+    <!--COMO FUNCIONA-->
+    <div id="funciona">
+      <div class="container">
+        <div class="row">
+
+          <center>
+            <p class="titulo-funciona">
+              <i>
+                Como funciona
+              </i>
+            </p>
+          </center>
+
+          <div class="col-md-15 align-self-center">
+
+            <p class="txt-funciona">
+              O engenheiro de software cuida de toda a parte técnica e científica dos sistemas, desde o
+              desenvolvimento até a gestão. Ele pode cuidar tanto das aplicações visíveis aos usuários
+              (front end) quanto aos bastidores (back end).
+              <br>
+              • No desenvolvimento, ele pode criar jogos e softwares para computadores, videogames e dispositivos móveis
+              (tablets e smartphones);
+              <br>
+              • Na arquitetura de softwares, o profissional fica responsável pela parte estrutural das aplicações, com
+              um alto controle de qualidade para garantir eficiência;
+              <br>
+              • Dentro da eficiência, ainda há os testes nos sistemas e apps para localizar possíveis falhas e
+              corrigi-las;
+              <br>
+              • Na parte de gestão, que acontece quando os sistemas já estão disponíveis, o engenheiro faz o
+              gerenciamento do negócio e projetos das empresas que uitilizam o software.
+              <br>
+              No cargo de Engenheiro de Software se inicia ganhando R$ 4.356,00 de salário e pode vir a ganhar
+              até R$ 8.594,00. Num geral, o profissional da área tem uma média de 6,3 mil reais por mês, podendo ser
+              ainda maior devido à medida com que ele se qualifica, sendo a formação mais comum através de graduação
+              em Ciência da Computação.
+            </p>
+            <br><br><br>
+          </div>
+          <div class=" align-self-center text-center">
+            <img src="assets/comofun.jpeg" class="img-funciona">
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+      <center>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16" color="white">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg>
+      </center>
+
+    </div>
+    <!--COMO FUNCIONA-->
+
+    <center>
+      <hr id="linha">
+    </center>
+
+
+    <div id="faculdade1">
+      <div class="container">
+        <div class="row">
+
+          <center>
+            <p class="faculdade-1">
+              <i>
+                <b>Como entrar na área de Engenharia de Software? <br></b>
+              </i>
+            </p>
+          </center>
+
+          <div class="col-md-15 align-self-center p-5">
+
+            <p class="txt-facul1">
+              Para entrar na área de Engenharia de Software temos várias maneiras, mas as principais são:
+              Graduação e Especialização.<br><br>
+
+              <i><b>Graduação:</b></i> Bom, aqui, você pode fazer uma faculdade na área de TI e depois fazer um mestrado
+              ou doutorado em Engenharia de Software especificamente.<br><br>
+
+              <i><b>Especialização:</b></i> caso não queira fazer uma faculdade na área e se graduar em Engenharia de
+              Software ou tenha muita habilidade na área, você pode opitar
+              pelas Especializações em alguma linguagem para trabalhar na área, podemos citar como exemplo
+              alguém que tem afinidade com games e programa muito bem, esta pessoa pode buscar um curso de
+              unity ou c# (linguagens utilizadas na programação de jogos) ou se especializar nelas e ingressar
+              no mercado de trabalho.
+            </p>
+          </div>
+
+          <div class=" align-self-center text-center">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+
+              <div class="col p-5">
+                <div class="card" id="graduacao">
+
+                  <div class="card-body">
+                    <a href="#bacharelados">
+
+
+                      <h5 class="card-title"><b>
+                          Graduação
+                        </b></h5>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col p-5">
+                <div class="card" id="especializacao">
+
+                  <a href="#lato">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <b>Especialização
+
+                        </b>
+                      </h5>
+
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <br><br>
+      <center>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16" color="white">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg>
+      </center>
+
+    </div>
+  </div>
+
+  <center>
+    <hr id="linha">
+  </center>
+
+
+  <!--PAGINA DE CURSOS-->
+  <div id="bacharelados">
+    <div class="container">
+      <div class="row">
+
+        <center>
+          <p class="titulo-bacharelado">
+            <i>
+              Onde se graduar em Engenharia de Software?
+            </i>
+          </p>
+        </center>
+
+        <div class="col-md-15 align-self-center">
+
+          <p class="txt-bacharelado">
+            Abaixo separamos as principais universidades para cursar e fazer o bacharelado em engenharia de software,
+            segue abaixo!
+            <br>
+
+          </p>
+
+        </div>
+        <div class=" align-self-center text-center">
+          <div class="card-group">
+            <div class="card" id="cardcurso">
+              <a href="https://sigaa.ufrn.br/sigaa/public/curso/portal.jsf?id=17848940">
+                <br>
+                <center>
+                  <img src="assets/faculdades/ufrn.png" class="card-ufrn" alt="..."
+                    href="https://sigaa.ufrn.br/sigaa/public/curso/portal.jsf?id=17848940">
+                </center>
+                <div class="card-body">
+                  <h5 class="card-title">Universidade Federal do Rio Grande do Norte</h5>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="card" id="cardcurso">
+              <a href="https://www.ufc.br/ensino/guia-de-profissoes/547-engenharia-de-software">
+                <br><br>
+                <center>
+                  <img src="assets/faculdades/ufc.png" class="card-ufc" alt="...">
+                </center>
+                <div class="card-body">
+                  <h5 class="card-title">Universidade Federal do Ceará</h5>
+                </div>
+              </a>
+            </div>
+
+
+
+            <div class="card" id="cardcurso">
+              <a href="http://www.itec.ufpa.br/index.php?option=com_content&view=article&id=211&Itemid=114&lang=pt">
+                <br>
+                <center>
+                  <img src="assets/faculdades/ufpa.png" class="card-ufpr" alt="...">
+                </center>
+                <div class="card-body">
+                  <h5 class="card-title">Universidade Federal do Pará</h5>
+                </div>
+            </div>
+            </a>
+
+
+
+
+
+            <div class="card" id="cardcurso">
+              <a href="https://www.inf.ufg.br/engenharia-de-software">
+
+                <br>
+                <center>
+                  <img src="assets/faculdades/ufg.png" class="card-ufg" alt="...">
+                </center>
+                <div class="card-body">
+                  <h5 class="card-title">Universidade Federal de Goiás</h5>
+                </div>
+            </div>
+            </a>
+
+          </div>
+
+
+
+          <br><br>
+          <div class="card-group">
+            <div class="card" id="cardcurso">
+              <a href="https://icomp.ufam.edu.br/cursos/eng-de-software.html">
+                <br><br>
+
+                <center>
+                  <img src="assets/faculdades/ufam.png" class="card-ufam" alt="...">
+                </center>
+
+                <div class="card-body">
+                  <h5 class="card-title">Universidade Federal do Amazonas</h5>
+                </div>
+              </a>
+
+            </div>
+            <div class="card" id="cardcurso">
+              <a href="https://portal.utfpr.edu.br/cursos/graduacao/bacharelado/engenharia-de-software">
+                <br><br><br><br>
+
+                <center>
+
+                  <img src="assets/faculdades/utpr.png" class="card-utfpr" alt="...">
+                </center>
+
+                <div class="card-body">
+                  <br><br>
+                  <h5 class="card-title">Universidade Tecnológica Federal do Paraná</h5>
+                </div>
+              </a>
+
+            </div>
+
+            <div class="card" id="cardcurso">
+              <a href="https://www.facom.ufms.br/engenharia-de-software/">
+                <br><br>
+
+                <center>
+                  <img src="assets/faculdades/ufms.png" class="card-ufms" alt="...">
+                </center>
+
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title">Universidade Federal do Mato Grosso do Sul</h5>
+                </div>
+              </a>
+
+            </div>
+
+
+            <div class="card" id="cardcurso">
+              <a href="https://www.uepg.br/tag/engenharia-de-software/">
+                <br><br><br>
+
+                <center>
+                  <img src="assets/faculdades/uepg.png" class="card-ufpg" alt="...">
+                </center>
+
+                <div class="card-body">
+                  <br><br>
+                  <h5 class="card-title">Universidade Federal de Ponta Grossa</h5>
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <center>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+        viewBox="0 0 16 16" color="white">
+        <path
+          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+      </svg>
+    </center>
+
+  </div>
+  <!--PAGINA DE CURSOS-->
+
+  <center>
+    <hr id="linha">
+  </center>
+
+  <!--PAGINA DE CARROSSEIS-->
+
+
+  <!--POS GRADUAÇÃO (STRICTO SENSU)-->
+  <div id="mestrados">
+    <div class="container">
+      <div class="row">
+
+        <center>
+          <p class="titulo-mestrado">
+            <i>
+              Pós-Graduação (Stricto-Sensu)
+            </i>
+          </p>
+          <p class="subtitulo">Já se graduou, e agora busca em ampliar seus conhecimentos com mestrado?<br> As páginas
+            abaixo contém informações sobre!</p>
+        </center>
+
+        <div class="col-md-15 align-self-center">
+
+          <p class="txt-mestrado">
+            Existem 4 tipos de mestrado em Engenharia de Software, sendo eles:
+          </p>
+
+        </div>
+        <div class=" align-self-center text-center">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title"><b>
+                      Engenharia Robótica
+                    </b></h5>
+                  <p class="card-text">A engenharia robótica é um dos campos emergentes mais empolgantes relacionados a
+                    engenharia de software. Neste campo um engenheiro de
+                    robótica será responsável por criar robôs e sistemas robóticos. Trata-se de um papel crucial porque
+                    ele
+                    ajuda a tornar os empregos (especialmente na indústria) mais seguros, fáceis e eficientes.
+
+                  </p>
+                  <br>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="cciber">
+
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <b>Cibersegurança</b>
+                  </h5>
+                  <p class="card-text">Cibersegurança é um campo muito amplo. No trabalho de deixar a atividade online
+                    segura e protegida, engenheiros de software da área de cibersegurança podem estar trabalhando em
+                    coisas como firewalls ou escaneamento de vulnerabilidades, ou criando atualizações de segurança.
+                    O trabalho também inclui ser um especialista em defesa e contramedidas, para criar software forte e
+                    confiável.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <b>Desenvolvimento de Sistemas</b>
+                  </h5>
+                  <p class="card-text">Desenvolvimento de sistemas é o processo de definir, desenhar, programar, testar
+                    e
+                    implementar uma aplicação ou programa para computadores. O software que você usa em seu computador,
+                    por exemplo, teve um desenvolvedor de sistemas em parte de seu processo de fabricação.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <b>Desenvolvimento Web</b>
+                  </h5>
+                  <p class="card-text">Se desenvolvimento de sistemas é sobre criar o software que usamos em nossos
+                    computadores, o desenvolvimento web é o código ou programação que dá funções a sites. Então o
+                    desenvolvedor de sistemas cria o navegador da internet, por exemplo, e o desenvolvedor web cria
+                    esse site que você está lendo no seu navegador.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <center>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+        viewBox="0 0 16 16" color="white">
+        <path
+          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+      </svg>
+    </center>
+
+  </div>
+  <!--POS GRADUAÇÃO (STRICTO SENSU)-->
+
+  <center>
+    <hr id="linha">
+  </center>
+
+  <!--OPCOES POS (STRICTO SENSU)-->
+  <div id="mestrado1">
+    <div class="container">
+      <div class="row">
+
+        <center>
+          <p class="titulo-mestrado">
+            <i>
+              Algumas opções de mestrado nas áreas citadas:
+            </i>
+          </p>
+        </center>
+
+        <div class="col-md-15 align-self-center">
+        </div>
+        <div class=" align-self-center text-center">
+          <div class="row row-cols-1 row-cols-md-1 g-4">
+            <div class="col">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                <div class="col">
+                  <div class="card" id="cverona">
+                    <a
+                      href="https://www.masterstudies.com/Masters-degree-in-Computer-Engineering-for-Robotics-and-Smart-Industry/Italy/University-of-Verona/">
+                      <center>
+                        <img src="assets/Mestrado/verona.png" class="card-verona" alt="...">
+                      </center>
+
+                      <div class="card-body">
+
+
+
+                        <h5 class="card-title">Mestrado em Robótica </h5>
+                        <p class="card-text-mestrado">
+
+
+                          <b>Local:</b> Verona, Itália (Campus)
+                          <br>
+                          <b>Duração:</b> 2 anos
+                          <br>
+                          <b>Tempo:</b> Integral
+                          <br>
+                          <b>Língua:</b> Inglês
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+
+                <div class="col">
+                  <div class="card" id="cardmon">
+                    <a
+                      href="https://www.masterstudies.com/Masters-Degree-in-Data-Analysis-Cybersecurity-and-Cloud-Computing/Spain/Mondragon-Unibertsitatea/">
+                      <center>
+                        <img src="assets/Mestrado/mondragon.png" class="card-mondragon" alt="...">
+                      </center>
+
+                      <div class="card-body">
+                        <h5 class="card-title">Mestrado em Cibersegurança </h5>
+                        <p class="card-text-mestrado">
+
+
+                          <b>Local:</b> Arraste, Espanha (Campus)
+                          <br>
+                          <b>Duração:</b> 18 Meses
+                          <br>
+                          <b>Tempo:</b> Integral
+                          <br>
+                          <b>Língua:</b> Inglês ou Espanhol
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" id="cardcb">
+                    <a
+                      href="https://www.ipcb.pt/estcb/ensino/mestrado-em-desenvolvimento-de-software-e-sistemas-interactivos">
+                      <center>
+                        <img src="assets/Mestrado/cb.svg" class="card-cb" alt="...">
+                      </center>
+
+                      <div class="card-body">
+                        <h5 class="card-title">Mestrado em Desenvolvimento de Sistemas </h5>
+                        <p class="card-text-mestrado">
+
+
+                          <b>Local:</b> Castelo Branco, Portugal (Campus)
+                          <br>
+                          <b>Duração:</b> 2 anos
+                          <br>
+                          <b>Tempo:</b> Integral
+                          <br>
+                          <b>Língua:</b> Inglês ou Português
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" id="coviedo">
+                    <a
+                      href="https://www.masterstudies.com/Masters-Degree-in-Web-Engineering/Spain/University-of-Oviedo/?_gl=1*hlpiol*_ga*NDU1NjgxMzA4LjE2NTE0NTQzOTg.*_ga_82TYZBKWSG*MTY2NjM3NDMxMi41LjEuMTY2NjM3NDkwNi4wLjAuMA..">
+                      <center>
+                        <img src="assets/Mestrado/oviedo.png" class="card-oviedo" alt="...">
+                      </center>
+
+                      <div class="card-body">
+                        <h5 class="card-title">Mestrado em Desenvolvimento Web </h5>
+                        <p class="card-text-mestrado">
+
+
+                          <b>Local:</b> Oviedo, Espanha (Campus)
+                          <br>
+                          <b>Duração:</b> 2 anos
+                          <br>
+                          <b>Tempo:</b> Integral
+                          <br>
+                          <b>Língua:</b> Espanhol
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <center>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+        viewBox="0 0 16 16" color="white">
+        <path
+          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+      </svg>
+    </center>
+
+  </div>
+  <!--OPCOES POS (STRICTO SENSU)-->
+
+  <center>
+    <hr id="linha">
+  </center>
+
+  <div id="doutorado">
+    <div class="container">
+      <div class="row">
+
+        <center>
+          <p class="titulo-doutorado">
+            <i>
+              <br>
+              Ok ok, terminou sua graduação, seu mestrado e busca um doutorado? Separamos aqui duas opções para vocês!
+              <br><br>
+            </i>
+          </p>
+        </center>
+
+        <div class="col-md-15 align-self-center">
+        </div>
+        <div class=" align-self-center text-center">
+          <div class="row row-cols-1 row-cols-md-1 g-4">
+            <div class="col">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                <div class="col">
+                  <div class="card" id="cverona">
+                    <a href="https://www.seas.gwu.edu/">
+                      <center>
+                        <img src="assets/geo.png" class="card-geo" alt="...">
+                      </center>
+
+                      <div class="card-body">
+
+
+
+                        <h5 class="card-title">The George Washington University - School of Engineering & Applied
+                          Science</h5> <br>
+                        <p class="card-text-mestrado">
+
+
+                          Doutor em Filosofia em Ciência da Computação (Ph.D.)
+                          <br>
+                          <b>Local:</b>
+                          Washington, Estados Unidos da América (Campus)
+                          <br>
+                          <b>Tempo:</b>
+                          Integral
+                          <br>
+                          <b>Duração:</b>
+                          de 4 a 6 anos
+                          <br>
+                          <b>Idioma:</b>
+                          Inglês
+
+                          <br><br>
+
+                          O Doutorado em Ciência da Computação é baseado em trabalhos de curso e também em pesquisas que
+                          levam a uma dissertação.
+                          As áreas de foco da pesquisa giram em torno desses tópicos: segurança de computador e garantia
+                          de informação, engenharia
+                          de software e sistemas, bioinformática e computação biomédica, rede e computação móvel,
+                          computação pervasiva e sistemas
+                          embarcados, inteligência de máquina, robótica e algoritmos e teoria.
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+
+                <div class="col">
+                  <div class="card" id="cardmon">
+                    <a href="https://www.utdallas.edu/">
+                      <center>
+                        <img src="assets/dallas.png" class="card-dallas" alt="...">
+                      </center>
+
+                      <div class="card-body">
+                        <h5 class="card-title">The University of Texas at Dallas <br><br><br></h5>
+                        <p class="card-text-mestrado">
+
+
+                          Doutor em Filosofia em Engenharia
+                          <br>
+                          <b>Local:</b> Richardson, Estados Unidos da América (Campus)
+                          <br>
+                          <b>Tempo:</b> Integral
+                          <br>
+                          <b>Duração:</b> 4 anos
+                          <br>
+                          <b>Idioma:</b> Inglês
+
+                          <br><br>
+                          O Ph.D. no programa de Engenharia de Software é feito sob medida para o aluno. O aluno deve
+                          organizar um programa
+                          de curso com a orientação e aprovação de um membro do corpo docente escolhido como seu
+                          orientador de graduação. Os
+                          pesquisadores de engenharia de software do Departamento de Ciência da Computação estão focados
+                          em questões relacionadas
+                          ao desenvolvimento eficaz de sistemas complexos em grande escala.
+
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+            </div>
+            <center>
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-caret-down-fill" viewBox="0 0 16 16" color="white">
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+              </svg>
+            </center>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+  <center>
+    <hr id="linha">
+  </center>
+
+  <!--POS LATO SENSU-->
+  <div id="lato">
+    <div class="container">
+      <div class="row">
+
+        <center>
+          <p class="titulo-mestrado">
+            <i>
+              Especializações (Pós-Graduação Lato Sensu)
+            </i>
+          </p>
+
+        </center>
+
+        <div class="col-md-15 align-self-center">
+
+          <p class="txt-lato">
+            Terminou sua graduação, seu mestrado e seu doutorado, ou, optou por não fazer nenhum deles? Não se preocupe!
+            Dentro da área da Engenharia de
+            software nós temos algumas especializações que permitem o indivíduo se
+            profissionalizar sem facudade, graduação ou mestrado (ou com todos eles no currículo), a pessoa pode
+            escolher uma linguagem com a qual
+            tem afinidade, gosta, ou pretende ter um futuro e pode tentar obter uma certificação nela, mas é claro
+            que não é uma coisa tão simples assim; abaixo temos algumas espeacializações dentre as principais da área:
+          </p>
+
+        </div>
+        <div class=" align-self-center text-center">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card" id="carduc">
+
+                <a href="https://unity.com/pt/products/unity-certifications/professional-programmer">
+                  <center>
+                    <img src="assets/unity2.png" class="unity" alt="...">
+                  </center>
+
+                  <div class="card-body">
+                    <h5 class="card-title"><b>
+                        Certificação em Unity
+                      </b></h5>
+                    <p class="card-text" id="txt_unity">A especialização em Unity irá permitir o trabalho na área de
+                      desenvolvimento de games,
+                      a própria empresa é quem disponibiliza as certificações e vai levar em consideração seu tempo de
+                      trabalho com o motor gráfico.
+                    </p>
+
+                  </div>
+                </a>
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" id="carduc">
+                <a href="https://learn.microsoft.com/pt-br/certifications/exams/70-483">
+                  <center>
+                    <img src="assets/c2.png" class="c" alt="...">
+                  </center>
+
+
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <b>Certificação em C#</b>
+                    </h5>
+                    <p class="card-text">O C# (C Sharp) pode ser utilizado de várias formas, dentre elas, os games
+                      novamente,
+                      aqui, a própria microsoft oferece exames e testes para melhorar suas habilidades na linguagem, e
+                      temos
+                      além do c#, várias outras linguagens da própria microsoft em que é possível ter certifição para
+                      trabalhar
+                      na área.</p>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <center>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+        viewBox="0 0 16 16" color="white">
+        <path
+          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+      </svg>
+    </center>
+
+  </div>
+  <!--POS LATO SENSU-->
+
+  <center>
+    <hr id="linha">
+  </center>
+
+  <!--MBAS-->
+  <div id="mba">
+    <div class="container">
+      <div class="row">
+
+        <center>
+          <p class="titulo-mestrado">
+            <i>
+              MBAs (Pós-Graduação Lato Sensu)
+            </i>
+          </p>
+
+        </center>
+
+        <div class="col-md-15 align-self-center">
+
+          <p class="txt-lato">
+            Além das especializações e graduações, nós temos as MBAs (um curso de pós-graduação lato sensu, voltado à
+            atuação prática
+            profissional) Essa pós-graduação é destinada a profissionais que buscam qualificação na área de Gestão em
+            Engenharia de Software que estejam em fase de preparação da carreira (recém-formados) ou gestores e
+            executivos
+            de empresas, líderes de equipes e projetos, empreendedores, profissionais liberais e demais profissionais
+            atuantes no mercado de trabalho que buscam competências com foco em aspectos gerenciais da indústria de
+            software.
+            <br><br>
+            Locais para fazer MBA em Engenharia de Software:
+          </p>
+
+        </div>
+        <div class=" align-self-center text-center">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card" id="cardmba">
+                <a id="mbas" href="http://pos-graduacao-ead.cp.utfpr.edu.br/engenharia-de-software/">
+                  <center>
+                    <img src="assets/faculdades/utpr.png" class=""
+                      style="width:200px; padding-top:40px; padding-bottom: 40px;" alt="...">
+                  </center>
+              </div></a>
+            </div>
+
+            <div class="col">
+              <div class="card" id="cardmba">
+                <a id="mbas" href="http://www.pucsp.br/pos-graduacao/especializacao-e-mba/engenharia-de-software">
+                  <center>
+                    <img src="assets/faculdades/puc.png" class=""
+                      style="width:200px; padding-top:30px; padding-bottom: 30px;" alt="...">
+                  </center>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <center>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill"
+        viewBox="0 0 16 16" color="white">
+        <path
+          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+      </svg>
+    </center>
+
+  </div>
+  <!--MBAS-->
+
+  <center>
+    <hr id="linha">
+  </center>
+  <div id="lato">
+    <div class="container">
+      <div class="row">
+
+        <center>
+          <p class="titulo-mestrado">
+            <i>
+              Noticias
+            </i>
+          </p>
+
+        </center>
+        <div>
+          <script>
+              funcContent()
+          </script>
+      </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <center>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16" color="white">
+        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"></path>
+      </svg>
+    </center>
+
+  </div>
+  <center>
+    <hr id="linha">
+  </center>
+
+  <!--ENTREVISTA-->
+  <div id="entrevista">
+    <div class="container">
+      <div class="row">
+
+        <center>
+          <p class="entrevista">
+            <i>
+              Entrevista com o Professor Ramon Trigo
+            </i>
+          </p>
+
+          <p class="sub_txt_en">Ramon Trigo é um dos professores da ETEC de Registro, e nessa pequena entrevista a
+            seguir ele fala um pouco sobre a área de Engenharia de Software, como entrou, as dificuldades, salário e
+            mais.</p>
+        </center>
+
+        <div class="col-md-12 align-self-center">
+
+
+          <center><div id="cel-main">
+              <iframe src="https://www.youtube.com/embed/MvPgfco3x0k" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div></center>
+            
+
+
+          <br>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--ENTREVISTA-->
+
+  <!--FOOTER-->
+  <footer class="text-center text-lg-start " style="background-color: #191818;">
+
+
+    <div class="container d-flex justify-content-center py-3">
+
+
+
+      <button type="button" class="btn btn-floating btn-lg btn-floating mx-2" style="background-color: #191818;">
+        <a href="https://github.com/GustavoLanna11">
+          <i class="fab fa-github"></i>
+          <img src="assets/footer/github.png" style="width:50%;">
+
+        </a>
+      </button>
+
+
+      <button type="button" class="btn btn-floating btn-lg btn-floating mx-2" style="background-color: #191818;">
+
+        <a href="https://www.linkedin.com/in/gustavo-lanna-50aa56231/">
+          <i class="fab fa-linkedin" href=""></i>
+          <img src="assets/footer/linkedin.png" style="width:50%;">
+        </a>
+
+      </button>
+
+
+      <button type="button" class="btn btn-floating btn-lg btn-floating mx-2" style="background-color: #191818;">
+
+        <a href="https://www.instagram.com/gustavolanna11/">
+          <i class="fab fa-instagram"></i>
+          <img src="assets/footer/instagram.png" style="width:50%;">
+        </a>
+
+      </button>
+    </div>
+    <div class="text-center text-white p-3" style="background-color: #000000;">
+      Copyright ©2022 GustavoLanna. Designed By
+      <a class="text-white" href="https://github.com/GustavoLanna11">GUSTAVO LANNA :)</a>
+    </div>
+  </footer>
+  <!--FOOTER-->
+
+  <!--DEU TUDO CERTO :)))))-->
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
